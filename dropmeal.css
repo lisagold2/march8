@@ -1,0 +1,1164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    
+}
+header{
+    position: fixed;
+    width: 100%; 
+    height: 110px;
+    left: 0px;
+    top: -30px;
+    z-index: 20;
+    background-color: #000000;
+}
+.container>.logo>img{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    left: 22px;
+    top: -12px ;
+}
+header>.container>span{
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 140px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+header>.container>nav>ul>li>a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.about{
+    position: absolute;
+    width: 41px;
+    height: 24px;
+    left: 350px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    
+}
+.how{
+    position: absolute;
+    width: 200px;
+    height: 24px;
+    left: 450px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+}
+.partner{
+    position: absolute;
+    width: 150px;
+    height: 24px;
+    left: 600px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+}
+.support{
+    position: absolute;
+    width: 41px;
+    height: 24px;
+    left: 750px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+}
+.download{
+    position: absolute;
+    width: 180px;
+    height: 30px;
+    left: 1150px;
+    top: 72px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+nav>ul>li>a>button{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 900px;
+    top: 100px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f12b08;
+}
+.hungry{
+    width:100%;
+    height: 700px;
+    background-color: #000000;
+}
+div.hungry>h1{
+    position: absolute;
+    width: 700px;
+    height: 40px;
+    left: 515px;
+    top: 250px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+div.hungry>.we{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 580px;
+    top: 300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+div.hungry>.circle{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 500px;
+    top: 380px;
+    background-color: #ffffff ;
+    border-radius: 20px;
+    border: none;
+}
+.circle>.get{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 5px;
+    top: -5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circle>.playstore{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 20px;
+    top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circle>img{
+    position: absolute;
+    width: 39px;
+    height: 35px;
+    left: 24px;
+    top: 2px;
+}
+/*appstore*/
+div.hungry>.circletwo{
+    position: absolute;
+    width: 180px;
+    height: 40px;
+    left: 700px;
+    top: 380px;
+    background-color: #ffffff ;
+    border-radius: 20px;
+    border: none;
+}
+.circletwo>.downloadon{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 13px;
+    top: -5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circletwo>.applestore{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left: 20px;
+    top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circletwo>img{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 20px;
+    top: 6px;
+}
+/*aboutdropmeal*/
+.main{
+    width:100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.main>h1{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 530px;
+    top: 900px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 37px;
+    line-height: 49px;
+    letter-spacing: 0.015em;
+    color:#ff7214fa ;
+} 
+.main>p{
+    position: absolute;
+    width: 420px;
+    height: 40px;
+    left: 480px;
+    top: 1000px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.main>button{
+    position: absolute;
+    width: 250px;
+    height: 50px;
+    left: 570px;
+    top: 1250px;
+    border: 2px solid #0167c8;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    background-color: #ffffff;
+    color: #0167c8;
+}
+.work{
+    width:100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.work>h2{
+    position: absolute;
+    width: 350px;
+    height: 50px;
+    left: 510px;
+    top: 1500px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 0.015em;
+    color: #ff7214fa;
+} 
+.workone>img{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 300px;
+    top: 1650px;
+}
+.workone>h4{
+    position: absolute;
+    width: 120px;
+    height: 60px;
+    left: 250px;
+    top: 1780px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.workone>p{
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 250px;
+    top: 1850px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.worktwo>img{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 630px;
+    top: 1650px;
+}
+.worktwo>h4{
+    position: absolute;
+    width: 150px;
+    height: 60px;
+    left: 600px;
+    top: 1780px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.worktwo>p{
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 600px;
+    top: 1850px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.workthree>img{
+    position: absolute;
+    width: 90px;
+    height: 80px;
+    left: 1000px;
+    top: 1650px;
+}
+.workthree>h4{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 960px;
+    top: 1780px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.workthree>p{
+    position: absolute;
+    width: 210px;
+    height: 40px;
+    left: 960px;
+    top: 1850px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}/*pay*/
+.payonce{
+    width:100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+
+.phoneone>img{
+    position: absolute;
+    width: 300px;
+    height: 460px;
+    left: 100px;
+    top: 2250px;
+    transform: rotate(-5.69deg);
+}
+.phoneone>span{
+    position: absolute;
+    width: 190px;
+    height: 400px;
+    left: 148px;
+    top: 2268px;
+    background-color:#f8d3be ;
+    border-radius: 30px;
+    transform: rotate(-12.69deg);
+}
+.phone>img{
+    position: absolute;
+    width: 300px;
+    height: 460px;
+    left: 270px;
+    top: 2250px;
+    transform: rotate(12.39deg);
+}
+.phone>span{
+    position: absolute;
+    width: 190px;
+    height: 400px;
+    left: 320px;
+    top: 2267px;
+    background-color:#f8d3be ;
+    border-radius: 30px;
+    transform: rotate(5.99deg);
+}
+/*pay once buy anythime*/
+.once>h1{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left:850px;
+    top: 2300px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+    color: #ff7f07;
+}
+.once>p{
+        position: absolute;
+        width: 300px;
+        height: 200px;
+        left: 800px;
+        top: 2400px;
+        
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 30px;
+        letter-spacing: 0.015em;
+        color: #000000;
+}
+/*paystore2*/
+.payonce>.circlep{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 800px;
+    top: 2600px;
+    background-color: #020202 ;
+    border-radius: 20px;
+    border: none;
+}
+.circlep>.get{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 15px;
+    top: -5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+.circlep>.playstore{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+.circlep>img{
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 16px;
+    top: 7px;
+    background-color: #ffffff;
+}
+.payonce>.circleA{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 970px;
+    top: 2600px;
+    background-color: #020202 ;
+    border-radius: 20px;
+    border: none;
+}
+.circleA>.coming{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    top: 5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+.circleA>img{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 10px;
+    top: 6px;
+    border-color: #ffffff;
+}
+/*black*/
+.black{
+    width:99%;
+    height: 700px;
+    background-color: #000000;
+    transform: rotate(0.8deg);
+}
+.part>img{
+    position: absolute;
+    width: 500px;
+    height: 850px;
+    left: 100px;
+    top: -50px;
+    transform: rotate(-1deg);
+}
+.other{
+    position: absolute;
+    width: 380px;
+    height: 200px;
+    left: 150px;
+    top: 500px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    transform: rotate(0deg);
+}
+.black>h1{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left:770px;
+    top: 100px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+    color: #ff7f07;
+    transform: rotate(-1deg);
+}
+.ball{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 820px;
+    top: 200px;
+
+    background-color: #f11708;
+    border-radius: 150%;
+}
+.balltwo{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 720px;
+    top: 400px;
+
+    background-color: #da5e0c;
+    border-radius: 150%;
+}
+.form{
+    position: absolute;
+    width: 350px;
+    height: 450px;
+    left: 750px;
+    top: 200px;
+
+    border-radius: 5px;
+    background-color: rgba(129, 123, 123, 0.596);
+    backdrop-filter: blur;
+    transform: rotate(0deg);
+}
+.you{
+    position: absolute;
+    width: 250px;
+    height: 45px;
+    left: 780px;
+    top: 220px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    transform: rotate(0deg);
+}
+.chose{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 780px;
+    top: 290px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    transform: rotate(0deg);
+    border:none ;
+}
+#Fullname{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 780px;
+    top: 380px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    transform: rotate(0deg);
+    border: none;
+}
+#Email{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 780px;
+    top: 480px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    transform: rotate(0deg);
+    border: none;
+}
+.begin{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 780px;
+    top: 550px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+    background-image: linear-gradient(rgb(255, 17, 0),rgb(248, 171, 27));
+    transform: rotate(0deg);
+    border: none;
+}
+/*white*/
+.white{
+    width:100%;
+    height: 700px;
+    background-color: #ffffff;
+}
+.white>img{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    left: 320px;
+    top: 3700px;
+    border-radius: 45px;
+
+}
+.white>.box{
+    position: absolute;
+    width: 800px;
+    height: 350px;
+    left: 320px;
+    top: 3700px;
+    border-radius: 45px;
+
+    background-color: rgba(255, 51, 0, 0.89);
+}
+.halfphone>img{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 730px;
+    top: 3838px;
+    transform: rotate(21.39deg);
+}
+.halfphone>span{
+    position: absolute;
+    width: 165px;
+    height: 360px;
+    left: 770px;
+    top: 3850px;
+
+    border-color: #ffffff;
+    border-radius: 30px;
+    background-color: rgba(177, 171, 171, 0.288);
+    transform: rotate(15.39deg);
+}
+.halfphone2>img{
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 850px;
+    top: 3740px;
+    transform: rotate(21.39deg);
+}
+.halfphone2>span{
+    position: absolute;
+    width: 165px;
+    height: 360px;
+    left: 890px;
+    top: 3750px;
+
+    border-color: #ffffff;
+    border-radius: 30px;
+    background-color: rgba(177, 171, 171, 0.288);
+    transform: rotate(15.39deg);
+}
+.know>.did{
+    position: absolute;
+    width: 300px;
+    height: 45px;
+    left: 385px;
+    top: 3750px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+.know>.well{
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    left: 385px;
+    top: 3820px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 25px;
+    letter-spacing: 0.015em;
+    color: #ffffff;
+}
+.know>.circlepl{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 380px;
+    top: 3930px;
+    background-color: #ffffff ;
+    border-radius: 20px;
+    border: none;
+}
+.circlepl>.get{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 15px;
+    top: -5px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circlepl>.playstore{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circlepl>img{
+    position: absolute;
+    width: 30px;
+    height: 25px;
+    left: 16px;
+    top: 7px;
+}
+.know>.circleAp{
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    left: 550px;
+    top: 3930px;
+    background-color: #ffffff ;
+    border-radius: 20px;
+    border: none;
+}
+.circleAp>.download{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 23px;
+    top: -3px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circleAp>.appstore{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 20px;
+    top: 12px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+.circleAp>img{
+    position: absolute;
+    width: 45px;
+    height: 30px;
+    left: 10px;
+    top: 6px;
+    border-color: #ffffff;
+}
+.whitebox{
+    position: absolute;
+    width: 100%;
+    height: 700px;
+    background-color: #ffffff;
+    top: 4050px;
+}
+/*meet out*/
+.meet>h1{
+    position: absolute;
+    width: 400px;
+    height: 40px;
+    left:500px;
+    top: 4200px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.015em;
+    color: #ff7f07;
+}
+.meet>.cobox{
+    position: absolute;
+    width: 1000px;
+    height: 100px;
+    left: 200px;
+    top: 4400px;
+
+    border-radius: 40px;
+    background-color: rgba(243, 239, 239, 0.603);
+}
+.coca>img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 300px;
+    top: 4400px;
+}
+.coca2>img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 500px;
+    top: 4400px;
+}
+.coca3>img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 700px;
+    top: 4400px;
+}
+.coca4>img{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 900px;
+    top: 4400px;
+}
+.ball4{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    left: 500px;
+    top: 4650px;
+
+    background-color: rgba(255, 237, 103, 0.137);
+    border-radius: 150%;
+}
+.ball5{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 450px;
+    top: 4800px;
+
+    background-color: rgba(255, 227, 103, 0.137);
+    border-radius: 150%;
+}
+.last{
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    left: 500px;
+    top: 4700px;
+}
+.last>p{
+    position: absolute;
+    width: 200px;
+    height: 40px;
+    left:10px;
+    top: 10px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.015em;
+    color: #fdba02;
+}
+.mk{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    left:160px;
+    top:15px;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 50px;
+    color: #ff6106;
+    transform: rotate(20deg);
+} 
+form>select{
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    left: 20px;
+    top: 70px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    background-color: #ffffff;
+}
+#email1{
+    position: absolute;
+    width: 180px;
+    height: 35px;
+    left: 20px;
+    top: 125px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
+#type{
+    position: absolute;
+    width: 180px;
+    height: 70px;
+    left: 20px;
+    top: 190px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    color: #000000;
+    
+}
+.send{
+    position: absolute;
+    width: 182px;
+    height: 30px;
+    left: 21px;
+    top: 280px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 35px;
+    letter-spacing: 0.015em;
+    background-image: linear-gradient(red, rgb(255, 174, 0)) ;
+    border: none;
+}/*
+.footer{
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background-color: #ffffff;
+    top: 4500px;
+}*/
+.footer{
+    position: absolute;
+    width: 100%; 
+    height: 300px;
+    top: 5100px;
+    background-color: #ffffff;
+}
+.logo1>img{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 50px;
+    top: 5px ;
+}
+.logo1>span{
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 180px;
+    top:100px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.015em;
+    color: #000000;
+}
